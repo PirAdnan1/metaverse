@@ -9,7 +9,6 @@ import Container from "./Container";
 import { navVariants } from "../utils/motion";
 
 const Navbar = () => (
-  <Container>
   <motion.nav
     className="px-6 sm:px-16 relative"
     variants={navVariants}
@@ -24,7 +23,6 @@ const Navbar = () => (
       <img src="/LogoVector.svg" alt="..." />
     </div>
   </motion.nav>
-  </Container>
 );
 
 export default Navbar;
