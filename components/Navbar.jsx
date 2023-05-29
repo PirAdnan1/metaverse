@@ -2,9 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// components
-import Container from "./Container";
-
 // motions
 import { navVariants } from "../utils/motion";
 
